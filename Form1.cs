@@ -78,7 +78,7 @@ namespace CashRegister
                 {
 
                     //display change owed
-                    changeLabel.Text = $"Change:                                    {change.ToString("C")}";
+                    changeLabel.Text = $"Change:                                              {change.ToString("C")}";
 
                     //enable next button
                     printButton.Enabled = true;
