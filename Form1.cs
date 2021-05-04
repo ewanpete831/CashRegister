@@ -109,11 +109,13 @@ namespace CashRegister
             Click.Play();
             Refresh();
 
+            //waits 1 second, displays text, and plays sound
             Thread.Sleep(1000);
             receiptLabel.Text += $"\n\n                           Order # 1";
             Click.Play();
             Refresh();
 
+            //if statements for items that haven't been purchased
             if (turkeySandwiches > 0)
             {
                 Thread.Sleep(1000);
