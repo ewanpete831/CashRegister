@@ -171,10 +171,10 @@ namespace CashRegister
             // 
             // changeLabel
             // 
-            this.changeLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeLabel.Location = new System.Drawing.Point(12, 485);
             this.changeLabel.Name = "changeLabel";
-            this.changeLabel.Size = new System.Drawing.Size(507, 51);
+            this.changeLabel.Size = new System.Drawing.Size(526, 51);
             this.changeLabel.TabIndex = 12;
             // 
             // printButton
